@@ -1,5 +1,4 @@
 function calculate_median(arr) {
-    function test(arr){
         var ouArr = [];
         for(var i=0; i<arr.length; i++){
             if(i%2 == 0){
@@ -17,7 +16,6 @@ function calculate_median(arr) {
         }else{
             return ouArr[Math.floor(ouArr.length/2)];
         }
-    }
 }
 
 module.exports = calculate_median;
